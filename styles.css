@@ -1,3 +1,12 @@
+:root {
+  --sidebar-hero-height: 20vh; 
+}
+
+@font-face {
+  font-family: norse-font;
+  src: url(assets/Norse-Bold.otf);
+}
+
 body {
   margin: 0 10vw;
   padding: 0;
@@ -13,6 +22,56 @@ body {
 
 .form-container {
   flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  flex: 3;
+}
+
+.form-container > .form {
+  flex: 2;
+}
+
+.sidebar {
+  background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
+  background-position: left top;
+  background-size: cover;
+}
+
+.sidebar > .branding {
+  width: 100%;
+  height: var(--sidebar-hero-height);
+  display: flex;
+  position: relative;
+  top: 20vh;
+  justify-content: center;
+  align-items: center;  
+  background: rgba(0,0,0,0.4);
+}
+
+.sidebar > .branding > img {
+  width: 12vh;
+  height: auto;
+}
+
+.branding p {
+  display: inline;
+  font-family: norse-font;
+  font-size: 6.5rem;
+  color: white;
+}
+
+.sidebar .copyright {
+  height: calc(100% - var(--sidebar-hero-height));
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.sidebar .copyright p {
+  color: white;
 }
 
 .form-container, .sidebar {
