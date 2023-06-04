@@ -16,6 +16,5 @@ body {
 }
 
 .form-container, .sidebar {
-  background-color: cadetblue;
   border: 4px solid black;
 }
