@@ -84,3 +84,71 @@ body {
 .form-container, .sidebar {
   border: 4px solid black;
 }
+
+.form-container {
+  background: rgba(244,244,244,1);
+}
+
+.form-container > .info {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(244,244,244,1);
+}
+
+.form-container > .info > .info-text {
+  margin-bottom: 3rem;
+}
+
+.form-container .form {
+  background: white;
+  box-shadow: 0px 1px 4px 2px rgba(0,0,0,0.1),
+              0px -1px 4px 2px rgba(0,0,0,0.02);
+}
+
+.info-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+/* To undo any auto margins */
+.form-container .form p {
+  margin: 0;
+}
+
+.form-container .form .legend {
+  margin: 1rem 3rem;
+}
+
+.left-margin {
+  margin-left: 3rem;
+}
+
+form label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form input {
+  height: 1.4rem;
+  width: 14rem;
+  margin-right: 3rem;
+  margin-bottom: 1.1rem;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding-left: 0.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0rem;
+}
+
+form input:focus {
+  outline: 1px solid rgb(0, 204, 255);
+  box-shadow: 2px 2px 5px 0.5px rgba(0,0,0,0.2);
+}
