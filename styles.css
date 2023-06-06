@@ -148,7 +148,11 @@ form input:focus {
   box-shadow: 2px 2px 5px 0.5px rgba(0,0,0,0.2);
 }
 
-form .field-error {
+form .field-error,
+form #email:invalid,
+form #phone:invalid,
+form #first-name:invalid,
+form #last-name:invalid {
   border: 1px solid red;
 }
 
