@@ -21,41 +21,46 @@
     </div>
 
     <div class="form-container">
-      <div class="info">
+      <div class="info left-margin info-text">
         <p> Lorem ipsum dolor sit amet consectetur adipisicing 
           elit. Quaerat, architecto? Quos voluptatum ipsa voluptatibus ex 
-          placeat vitae iure! Ipsa libero obcaecati necessitatibus blanditiis 
           tenetur impedit provident doloremque soluta similique odio!</p>
-        <p> You <em>know</em> you want to </p>
+        <p class="info-text"> You <em>know</em> you want to. </p>
       </div>
 
       <div class="form">
-        <form action="#" method="post" id="sign-up">
-          <legend>Let's do this</legend>
-
-          <label for="first-name">first name</label>
-          <input type="text" id="first-name" name="first_name" />
-
-          <label for="last-name">last name</label>
-          <input type="text" id="last-name" name="last_name" />
-
-          <label for="email">email</label>
-          <input type="email" id="email" name="email" />
-
-          <label for="phone">phone</label>
-          <input type="tel" id="phone" name="phone" />
-
-          <label for="password">password</label>
-          <input type="password" id="password" name="password">
-
-          <label for="password-confirmation">confirm password</label>
-          <input type="password" id="password-confirmation" name="password_confirmation">
+        <p class="legend left-margin info-text">Let's do this!</p>
+        <form action="#" method="post" id="sign-up" class="left-margin">
+          <div>
+            <p><label for="first-name">first name</label></p>
+            <input type="text" id="first-name" name="first_name" />
+          </div>
+          <div>
+            <p><label for="last-name">last name</label></p>
+            <input type="text" id="last-name" name="last_name" />
+          </div>
+          <div>
+            <p><label for="email">email</label></p>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div>
+            <p><label for="phone">phone</label></p>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div>
+            <p><label for="password">password</label></p>
+            <input type="password" id="password" name="password">
+          </div>
+          <div>
+            <p><label for="password-confirmation">confirm password</label></p>
+            <input type="password" id="password-confirmation" name="password_confirmation">
+          </div>
         </form>
       </div>
 
-      <div class="actions">
+      <div class="actions left-margin">
         <button type="submit" for="sign-up">Create Account</button>
-        <p>Already have an account <a href="#">Sign In</a></p>
+        <p>Already have an account? <a href="#">Sign In</a></p>
       </div>
     </div>
   </div>
