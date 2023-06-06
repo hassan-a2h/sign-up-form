@@ -1,5 +1,5 @@
 :root {
-  --sidebar-hero-height: 20vh; 
+  --sidebar-hero-height: 17vh; 
 }
 
 @font-face {
@@ -52,21 +52,21 @@ body {
   height: var(--sidebar-hero-height);
   display: flex;
   position: relative;
-  top: 20vh;
+  top: 18vh;
   justify-content: center;
   align-items: center;  
   background: rgba(0,0,0,0.4);
 }
 
 .sidebar > .branding > img {
-  width: 12vh;
+  width: 10vh;
   height: auto;
 }
 
 .branding p {
   display: inline;
   font-family: norse-font;
-  font-size: 6.5rem;
+  font-size: 5.5rem;
   color: white;
 }
 
@@ -81,12 +81,8 @@ body {
   color: white;
 }
 
-.form-container, .sidebar {
-  border: 4px solid black;
-}
-
 .form-container {
-  background: rgba(244,244,244,1);
+  background: rgba(250,250,250,1);
 }
 
 .form-container > .info {
@@ -94,7 +90,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background: rgba(244,244,244,1);
 }
 
 .form-container > .info > .info-text {
